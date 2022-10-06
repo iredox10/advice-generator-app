@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(218deg, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.advice_container {
+  position: relative;
+  background: hsl(217deg, 19%, 24%);
+  padding: 1rem 1rem 3rem 1rem;
+  border-radius: 0.5rem;
+  margin: 7rem auto;
+  text-align: center;
+  max-width: 30rem;
+}
+.advice_container .advice_id {
+  color: hsl(150deg, 100%, 66%);
+  margin: 1rem 0;
+}
+.advice_container .advice {
+  color: hsl(193deg, 38%, 86%);
+  font-size: 1.5rem;
+}
+.advice_container .divider {
+  margin-top: 1rem;
+}
+.advice_container .dice {
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: hsl(150deg, 100%, 66%);
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

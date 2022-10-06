@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.advice_container{
+    position: relative;
+    background: hsl(217, 19%, 24%);
+    padding: 1rem 1rem 3rem 1rem;
+    border-radius: .5rem;
+    margin: 7rem auto;
+    text-align: center;
+    max-width: 30rem;
+    .advice_id{
+        color: hsl(150, 100%, 66%);
+        margin: 1rem 0;
+    }
+    .advice{
+        color: hsl(193, 38%, 86%);
+        font-size: 1.5rem;
+    }
+    .divider{
+        margin-top: 1rem;
+    }
+    .dice{
+        position: absolute;
+        bottom: -2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background: hsl(150, 100%, 66%);
+        padding: 1rem;
+        border-radius: 50%
+    }
+}
